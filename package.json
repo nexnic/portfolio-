@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-",
+  "version": "1.0.0",
+  "description": "This the landing page for kent erik hole",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nexnic/portfolio-.git"
+  },
+  "author": "Kent Erik Hole",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nexnic/portfolio-/issues"
+  },
+  "homepage": "https://github.com/nexnic/portfolio-#readme"
+}
