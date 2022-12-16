@@ -4,7 +4,7 @@
   "description": "This the landing page for kent erik hole",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/nexnic/portfolio-/issues"
   },
-  "homepage": "https://github.com/nexnic/portfolio-#readme"
+  "homepage": "https://github.com/nexnic/portfolio-#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
 }
