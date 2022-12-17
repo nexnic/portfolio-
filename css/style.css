@@ -1,3 +1,13 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html, body {
+  background-color: #070600; }
+
 @font-face {
   font-family: Roboto-black;
   src: url(../../assets/font/Roboto/Roboto-Black.ttf); }
@@ -15,4 +25,21 @@
   src: url(../../assets/font/Montserrat/Montserrat-VariableFont_wght.ttf); }
 
 .heading__LT {
-  font-family: Roboto-medium; }
+  font-family: Roboto-medium;
+  color: #eec10d; }
+
+.link__nav {
+  text-decoration: none;
+  color: #eec10d; }
+  .link__nav:hover {
+    color: #735807; }
+
+.btn__yellow {
+  color: #eec10d;
+  text-decoration: none;
+  border: 2px solid #eec10d;
+  border-radius: 10%;
+  padding: 10px 10px; }
+  .btn__yellow:hover {
+    background-color: #eec10d;
+    color: white; }
