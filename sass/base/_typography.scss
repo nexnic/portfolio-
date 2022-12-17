@@ -1,0 +1,35 @@
+
+// Font - Roboto - Black 
+
+@font-face {
+    font-family: Roboto-black;
+    src: url(../../assets/font/Roboto/Roboto-Black.ttf);
+}
+
+// Font - Roboto - Blod
+
+@font-face {
+    font-family: Roboto-bold;
+    src: url(../../assets/font/Roboto/Roboto-Bold.ttf);
+}
+
+// Font - Roboto - Medium
+
+@font-face {
+    font-family: Roboto-medium;
+    src: url(../../assets/font/Roboto/Roboto-Medium.ttf);
+}
+
+// Font - Monstserrat - Variable
+
+@font-face {
+    font-family: monosserrat;
+    src: url(../../assets/font/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+.heading {
+    &__LT {
+        font-family: Roboto-medium;
+        
+    }
+}

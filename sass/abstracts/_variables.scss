@@ -1,9 +1,17 @@
 // Color pallets 
     // primary Color 
-
+        // Primary Color - Light
+            $ColorPrimary-light: #5D75D4;
+        // Primary Color
+            $ColorPrimary: #3C4B88;
+        // Primary Color 
+        $ColorPrimary-Dark: #252E54;
     // Secondary Color 
 
     // Tertiary Color 
 
+    // Grey Color 
+        $ColorGrey: #737B9B;
+    // White Color 
+        $ColorWhite: #ffffff;
 // Font Clamp 
-    $font-size-titl1: clamp(1rem, -1.5rem + 8vw, 3rem);

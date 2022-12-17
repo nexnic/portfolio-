@@ -1,4 +1,2 @@
-# portfolio-
-My new site
+# My Portfolio 
 
-This site is under Design thinking Come bak later pleas
