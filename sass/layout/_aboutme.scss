@@ -1,0 +1,26 @@
+#aboutme{
+    display: grid;
+    grid-template: 
+    "abouttop"
+    "aboutmid"
+    "aboutbot";
+    min-height: 40vh;
+    background-color: $colorPrimary;
+    padding: 2rem;
+}
+
+
+
+#aboutme__top {
+    grid-area: abouttop;
+}
+
+#aboutme__mid {
+    grid-area: aboutmid;
+}
+
+#aboutme__bot {
+    display: flex;
+    flex-direction: row;
+    grid-area: aboutbot;
+}
