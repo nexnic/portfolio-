@@ -1,0 +1,39 @@
+.header {
+    display: grid;
+    background-color: $colorPrimary;
+    grid-template-areas: 
+    "headertop headertop"
+    "headermid headermid"
+    "headerbot headerbot";
+    background-image: url(../media/keh004.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    padding:2rem;
+
+    &__top {
+        grid-area: headertop;
+    }
+
+    &__mid {
+        grid-area: headermid;
+    }
+
+    &__bot {
+        grid-area: headerbot;
+    }
+}
+
+#desktop {
+    display: flex;
+    justify-content: space-between;
+}
+
+#headercontact {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    min-height: 100%;
+    justify-content: end;
+    align-items: flex-end;
+}
