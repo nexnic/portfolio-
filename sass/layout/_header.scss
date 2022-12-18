@@ -5,7 +5,7 @@
     "headertop headertop"
     "headermid headermid"
     "headerbot headerbot";
-    background-image: url(../media/keh004.jpg);
+    background-image: url(../../media/keh007.png);
     background-position: right;
     background-repeat: no-repeat;
     min-height: 50vh;
@@ -27,6 +27,12 @@
 #desktop {
     display: flex;
     justify-content: space-between;
+
+    &__nav {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
 }
 
 #headercontact {

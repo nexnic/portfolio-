@@ -1,24 +1,26 @@
 #aboutme{
-    min-height: 40vh;
-    background-color: aqua;
-}
-
-#about {
     display: grid;
     grid-template: 
-    "abouttop abouttop"
-    "aboutmid aboutmid"
-    "aboutbot aboutbot";
+    "abouttop"
+    "aboutmid"
+    "aboutbot";
+    min-height: 40vh;
+    background-color: $colorPrimary;
+    padding: 2rem;
 }
 
-#about__top {
+
+
+#aboutme__top {
     grid-area: abouttop;
 }
 
-#about__mid {
+#aboutme__mid {
     grid-area: aboutmid;
 }
 
-#about__bot {
-    grid: aboutbot;
+#aboutme__bot {
+    display: flex;
+    flex-direction: row;
+    grid-area: aboutbot;
 }

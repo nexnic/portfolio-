@@ -1,0 +1,261 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family: 'Montserrat', sans-serif;
+
+}
+ul {
+    list-style: none;
+}
+
+:root {
+    /* Font Family */
+
+    /* 
+        Font Size
+    */
+
+    --heading-Lt-size:clamp(1.75rem, 1.683rem + 0.3571vw, 2.125rem);;
+    --heading-title1-size: clamp(1.375rem, 1.3329rem + 0.3371vw, 1.75rem);
+    --heading-title2-size: clamp(1.25rem, 1.236rem + 0.1124vw, 1.375rem);
+    --heading-title3-size: font-size: clamp(1.0625rem, 1.0067rem + 0.2976vw, 1.375rem);
+    
+    /*
+        Color Pallet
+    */
+
+    --colorPrimary: #1b3379;
+    --colorSecondary: #fefbf7;
+
+
+
+}
+
+/*
+    typografi
+*/
+
+.heading__LT {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    
+    font-size: var(--heading-Lt-size);
+    color: var(--colorSecondary);
+
+}
+
+.heading__title1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: var(--heading-title1-size);
+    color: var(--colorSecondary);
+}
+
+.heading__title2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: var(--heading-title2-size);
+    color: var(--colorSecondary);
+}
+
+.heading__title3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: var(--heading-title3-size);
+    color: var(--colorSecondary);
+}
+
+p{
+  color:white;
+}
+
+.black {
+  color: black;
+}
+.header {
+    display: grid;
+    background-color: var(--colorPrimary);
+    grid-template-areas: "headertop headertop" "headermid headermid" "headerbot headerbot";
+    background-image: url(../../media/keh008.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    padding: 2rem; 
+}
+    .header__top {
+      grid-area: headertop; 
+    }
+    .header__mid {
+      grid-area: headermid; 
+    }
+    .header__bot {
+      grid-area: headerbot; 
+    }
+  
+  #desktop {
+    display: flex;
+    justify-content: space-between; 
+}
+    #desktop__nav {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem; 
+}
+  
+  #headercontact {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    min-height: 100%;
+    justify-content: end;
+    align-items: flex-end; 
+}
+#aboutme {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  max-width: 50%;
+  padding:2rem;
+}
+
+
+#aboutme--content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    min-width: 50%;
+    min-height: 40%;
+    max-width: 60%;
+    overflow: hidden;
+    padding:2rem;
+    border-radius: 0.7rem;
+    background-color: white;
+    box-shadow: -1px -1px 16px -9px rgba(255,255,255,0.75);
+  
+}
+
+#aboutme--list{
+  display: inline-flex;
+  flex-direction: column;
+  gap:1rem
+}
+
+/*
+    nav link 
+*/
+.link__nav {
+    font-family: 'Roboto', sans-serif;
+    color: var(--colorSecondary);
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+.link__nav:hover {
+    color: var(--colorSecondary-dark);
+}
+
+.link__socialmedia {
+    color: var(--colorSecondary);
+}
+
+body {
+    padding: 0; 
+    margin: 0;
+    background-color: #1b3379;
+    
+  }
+  
+  .project {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    margin:2rem; 
+  }
+  
+  .col-1-3 {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 1rem;
+    min-width: 40%;
+    min-height: 40%;
+    max-width: 60%;
+    overflow: hidden;
+    padding:2rem;
+    border-radius: 0.7rem;
+    background-color: white;
+    box-shadow: -1px -1px 16px -9px rgba(255,255,255,0.75);
+  
+  }
+  
+  .image__page {
+    height: inherit;
+    min-height: 20rem;
+    max-height: 20rem;
+  }
+  .page--1{
+    background: url(../media/keh0003.jpg) no-repeat top;
+    border-radius: 0.7rem;
+  }
+
+  .page--1:hover {
+    transform: scale(1.1);
+  }
+
+  .page--2{
+    background: url(../media/keh0002.jpg) no-repeat top;
+    border-radius: 0.7rem;
+  }
+
+  .page--2:hover {
+    transform: scale(1.1);
+  }
+  .page--3{
+    background: url(../media/keh0001.jpg) no-repeat top;
+    border-radius: 0.7rem;
+  }
+
+  .page--3:hover {
+    transform: scale(1.1);
+  }
+  
+  .page__list {
+    display: inline-flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .btn__blue {
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color:  #1b3379;
+    color: white;
+    padding: .7rem 1rem;
+    border-radius: .2rem
+  }
+
+  .btn__white {
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color:  white;
+    color: blue;
+    padding: .7rem 1rem;
+    border-radius: .2rem
+  }
+  
+  .btn__blue:hover {
+    box-shadow: -1px 6px 16px 1px rgba(138,138,138,0.75);
+  }
+  
+  btn__blue:active {
+    box-shadow: -1px 6px 16px 1px rgba(138,138,138,0.75) inset;
+  }
+
