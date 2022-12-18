@@ -17,19 +17,46 @@
 
 @font-face {
     font-family: Roboto-medium;
-    src: url(../../assets/font/Roboto/Roboto-Medium.ttf);
+    src: url(../assets/font/Roboto/Roboto-Medium.ttf);
+}
+
+// Font - Roboto - Regular 
+
+@font-face {
+    font-family: Roboto-regular;
+    src: url(../assets/font/Roboto/Roboto-Regular.ttf);
 }
 
 // Font - Monstserrat - Variable
 
 @font-face {
     font-family: monosserrat;
-    src: url(../../assets/font/Montserrat/Montserrat-VariableFont_wght.ttf);
+    src: url(../assets/font/Montserrat/Montserrat-VariableFont_wght.ttf);
 }
 
 .heading {
     &__LT {
         font-family: Roboto-medium;
-        
+        color: $colorSecondary;
     }
+    &__title1 {
+        font-family: Roboto-medium;
+        color: $colorSecondary;
+    }
+
+    &__title2 {
+        font-family: Roboto-medium;
+        color: $colorSecondary;
+    }
+
+    &__title3 {
+        font-family:  Roboto-regular;
+        color: $colorSecondary;
+    }
+}
+
+
+p {
+    font-family: monosserrat;
+    color: $colorSecondary;
 }
